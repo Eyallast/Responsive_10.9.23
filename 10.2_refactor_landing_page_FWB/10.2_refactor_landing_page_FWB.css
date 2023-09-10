@@ -15,7 +15,6 @@ body {
 .main-header {
   width: 60vh;
   color: white;
-  background-color: gray;
   text-align: center;
   height: fit-content;
   padding: 20px;
@@ -99,3 +98,6 @@ body {
   border-radius: 5px;
   cursor: pointer;
 }
+.custom-select {
+  align-items: center;
+  }
