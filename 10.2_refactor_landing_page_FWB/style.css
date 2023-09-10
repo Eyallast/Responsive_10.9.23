@@ -1,0 +1,210 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: #344a72;
+  color: #333;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+  background-color: whitesmoke;
+  margin: 30px auto;
+  padding: 20px;
+  width: 400px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#container {
+  margin: 30px auto;
+  width: 400px;
+  padding: 20px;
+}
+
+.form-wrap {
+  background: white;
+  padding: 15px 25px;
+  color: #333;
+}
+
+.form-wrap h1,
+.form-wrap p {
+  text-align: center;
+
+}
+
+.card{
+  text-align: center;
+}
+
+.Like {
+  background-color: blue;
+  color: #fff;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.Dislike {
+  background-color: red;
+  border: 2px solid black;
+  color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: antiquewhite;
+}
+
+
+
+
+
+/* Heading Styles */
+.container h1 {
+  font-size: 24px;
+}
+
+
+.container form {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+ 
+.signupbtn, .reset {
+  background-color: #4CAF50;
+  width: 100%;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 30px;
+} 
+
+
+.container a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.container p {
+  margin-top: 20px;
+}
+
+.comic-img {
+  text-align: center;
+  margin-top: auto;
+}
+
+.header {
+  color: #fff;
+  display: flex;
+}
+
+.content {
+  color: #fff;
+  font-size: 36px;
+}
+
+.container-index {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr); 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+}
+
+
+.container-index div {
+  padding: 10px;
+  text-align: center;
+}
+
+.container-index img {
+  max-width: 100%;
+    border: 1px solid ;
+
+}
+.container-index p {
+  font-size: large;
+  font-weight: bold;
+  color: white;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: black;
+position:sticky;
+width: 100%;
+top: 0;
+}
+
+li a {
+font-weight: 500;
+font-size: 16px;
+text-decoration: none;
+padding: 0px 100px;
+color: white;
+
+}
+.navlinks li a:hover {
+color: gray; /* Change this to the desired hover color */
+}
+
+
+.navlinks{
+display: inline-block;
+
+}
+.navlinks li{
+display: inline-block;
+}
+a:link {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+.link{
+  padding: 0;
+}
+.content-p {
+float: left;
+}
+.comic-img {
+  float: right;
+}
+details {
+  color: lightgreen;
+}
