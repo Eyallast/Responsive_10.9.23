@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Text</title>
+</head>
+<style>
+body {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background: gray;
+color: blanchedalmond;
+text-align: center;
+padding-top: 50;
+display: flex;
+justify-content: space-evenly;
+flex-shrink:2;}
+@media(max-width:500px) {
+ body {
+  background: blue;
+} 
+}
+
+@media(min-width: 501px) and (max-width:750px) {
+ body {
+  background: orange;
+} 
+}
+@media(min-width: 751px) {
+ body {
+  background: brown;
+} 
+}
+</style>
+<body>
+  <div id="wide"><h1>wide</h1></div>
+  <div id="regular"><h1>regular</h1></div>
+  <div id="phone"><h1>phone</h1></div>
+ </body>
+</html>
