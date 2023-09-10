@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Text</title>
+</head>
+<style>
+body {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background: gray;
+color: blanchedalmond;
+text-align: center;
+padding-top: 50;
+display: flex;
+justify-content: space-evenly;
+flex-shrink:2;
+flex-wrap: wrap;
+gap: 10px;
+}
+#iPad {
+  border: 1px solid white;
+  padding: 20px;
+  width: 30vh;
+}
+#wide {
+  border: 1px solid white;
+  padding: 20px;
+  width: 30vh;
+
+}
+#regular {
+  border: 1px solid white;
+  padding: 20px;
+  width: 30vh;
+
+}
+
+#phone {
+  border: 1px solid white;
+  padding: 20px;
+  width: 30vh;
+
+ }
+@media(max-width:500px) {
+ body {
+  background: blue;
+} 
+}
+
+@media(min-width: 501px) and (max-width:750px) {
+ body {
+  background: orange;
+} 
+}
+@media(min-width: 751px) {
+ body {
+  background: brown;
+  margin-top: 15px;
+
+} 
+}
+</style>
+<body>
+  <div id="wide"><h1>wide</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quos?</p>
+  </div>
+  <div id="regular"><h1>regular</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quos?</p>
+  </div>
+  <div id="phone"><h1>phone</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quos?</p>
+  </div>
+  <div id="iPad"><h1>iPad</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, quos?</p>
+  </div>
+ </body>
+</html>
